@@ -83,3 +83,13 @@ img {
   line-height: 1.8;
   margin-bottom: 1rem;
 }
+// profile page
+.profile-grid {
+  display: grid;
+  grid-template-areas:
+    "top top"
+    "about about"
+    "exp edu"
+    "github github";
+  grid-gap: 1rem;
+}
