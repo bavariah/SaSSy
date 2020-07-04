@@ -25,6 +25,9 @@
 .text-primary {
   color: $primary-color;
 }
+.round-img {
+  border-radius: 50%;
+}
 // backgrounds
 .bg {
   &-primary {
