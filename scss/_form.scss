@@ -20,4 +20,32 @@
     font-size: 1.2rem;
     border: 1px solid #ccc;
   }
+
+  input[type="submit"] {
+    font: inherit;
+  }
+  .social-input {
+    display: flex;
+
+    i {
+      padding: 0.5rem;
+      width: 4rem;
+
+      &.la-twitter {
+        color: #38a1f3;
+      }
+      &.la-facebook {
+        color: #3b5998;
+      }
+      &.la-instagram {
+        color: #3f729b;
+      }
+      &.la-youtube {
+        color: #c4302b;
+      }
+      &.la-linkedin {
+        color: #0077b5;
+      }
+    }
+  }
 }
